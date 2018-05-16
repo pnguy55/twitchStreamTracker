@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Twitch Stream Tracker</title>
+  <link href="https://fonts.googleapis.com/css?family=Bungee+Inline|Montserrat|Poppins" rel="stylesheet">
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  
+
+<!--Beginning of OVERALL wrap-->
+<div class='wrapper'>
+  
+  <!--Beginning of HEAD wrap-->
+  <div class='head-wrap'>
+    
+    <!--Beginning of TITLE wrap-->
+    <div class='title-wrap'>
+      <div class='title'><h1>TWITCH STREAMERS</h1></div>
+    </div>
+    <!--End of TITLE wrap-->
+    
+    <!--Beginning of TOGGLE wrap-->
+    <div class='toggle-wrap'>
+      <!--Button 1-->
+      <div id='toggle-btn-all' class='all'>
+        <a href="#" onclick="masterAjax(1);"><div id="icon-box"><div id='btn-icon-all'>
+          </div></div></a>
+        <a href="#" onclick="masterAjax(1);"><div id='btn-text-all'><span>ALL</span>
+        </div></a>
+      </div>
+      
+      <!--Button 2-->
+      <div id='toggle-btn-on' class='online'>
+        <a href="#" onclick="masterAjax(2);"><div id="icon-box"><div id='btn-icon-on'>
+          </div></div></a>
+        <a href="#" onclick="masterAjax(2);"><div id='btn-text-on'><span>ONLINE</span>
+        </div></a>
+      </div>
+      
+      <!--Button 3-->
+      <div id='toggle-btn-off' class='off'>
+        <a href="#" onclick="masterAjax(3);"><div id="icon-box"><div id='btn-icon-off'>
+          </div></div></a>
+        <a href="#" onclick="masterAjax(3);"><div id='btn-text-off'><span>OFFLINE</span>
+        </div></a>
+      </div>
+      
+    </div>
+    <!--End of TOGGLE wrap-->
+    
+  </div>
+  <!--End of HEAD wrap-->
+  
+ 
+  
+  <!--Beginning of STREAMER wrap-->
+  <div class='streamer-wrap'>
+    <div class="thumbnail-wrap"></div>
+    <div class="display-name-wrap"></div>
+    <div class="descrip-wrap"></div>
+    <div class="status-wrap"></>    
+     
+  
+  </div>
+  <!--End of STREAMER wrap-->
+
+</div>
+<!--End of OVERALL wrap-->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
